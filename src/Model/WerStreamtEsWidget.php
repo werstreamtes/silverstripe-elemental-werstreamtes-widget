@@ -1,6 +1,6 @@
 <?php
 
-namespace WSE\Elemental {
+namespace WSE\Elemental\Model {
 
     use DNADesign\Elemental\Models\BaseElement;
     use SilverStripe\GraphQL\Schema\Exception\SchemaBuilderException;

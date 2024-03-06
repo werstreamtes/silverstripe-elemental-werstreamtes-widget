@@ -1,0 +1,32 @@
+{
+  "name": "werstreamtes/widget-elementalblock",
+  "type": "silverstripe-vendormodule",
+  "description": "With this widget, you can display availability information for movies and series directly on your website.",
+  "keywords": [
+    "silverstripe",
+    "element",
+    "elemental",
+    "werstreamtes",
+    "movie",
+    "series",
+    "widget"
+  ],
+  "authors": [
+    {
+      "name": "WerStreamt.es?",
+      "email": "info@werstreamt.es"
+    }
+  ],
+  "license": "BSD-3-Clause",
+  "require": {
+    "silverstripe/framework": "^4 | ^5",
+    "dnadesign/silverstripe-elemental": "^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "WSE\\Elemental\\": "src/"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}

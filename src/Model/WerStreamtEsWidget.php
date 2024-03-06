@@ -78,11 +78,17 @@ namespace WSE\Elemental {
             return $blockSchema;
         }
 
+        /**
+         * @return string
+         */
         public function getTitle(): string
         {
             return self::$singular_name;
         }
 
+        /**
+         * @return string
+         */
         public function getClasses(): string {
             $classes = [];
             if ($this->ShowTV === "No") $classes[] = "wse-no-tv";

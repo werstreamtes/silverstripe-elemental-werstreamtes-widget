@@ -26,7 +26,5 @@
     "psr-4": {
       "WSE\\Elemental\\": "src/"
     }
-  },
-  "prefer-stable": true,
-  "minimum-stability": "dev"
+  }
 }

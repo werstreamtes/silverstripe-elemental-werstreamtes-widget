@@ -46,6 +46,11 @@ namespace WSE\Elemental\Model {
         private static string $plural_name = "WerStreamt.es? Widget";
 
         /**
+         * @var string
+         */
+        private static string $partnerTag = "";
+
+        /**
          * @var string[]
          */
         private static array $db = [

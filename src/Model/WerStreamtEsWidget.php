@@ -101,6 +101,13 @@ namespace WSE\Elemental\Model {
             return join(" ", $classes);
         }
 
+        /**
+         * @return string
+         */
+        public function getPartnerTag(): string {
+            return self::$partnerTag;
+        }
+
     }
 
 }

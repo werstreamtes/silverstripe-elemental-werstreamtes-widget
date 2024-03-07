@@ -63,7 +63,6 @@ namespace WSE\Elemental\Model {
             return static::$plural_name;
         }
 
-
         /**
          * @return array
          * @throws ValidationException

@@ -50,6 +50,7 @@ namespace WSE\Elemental\Model {
          */
         private static array $db = [
             "URL" => "Text",
+            "ShowTrailer" => "Boolean",
             "ShowTV" => "Boolean",
             "ShowDisc" => "Boolean",
         ];

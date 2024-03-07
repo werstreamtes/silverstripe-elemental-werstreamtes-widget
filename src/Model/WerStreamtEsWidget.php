@@ -3,7 +3,6 @@
 namespace WSE\Elemental\Model {
 
     use DNADesign\Elemental\Models\BaseElement;
-    use SilverStripe\Core\Config\Config;
     use SilverStripe\GraphQL\Schema\Exception\SchemaBuilderException;
     use SilverStripe\ORM\ValidationException;
 
@@ -106,7 +105,7 @@ namespace WSE\Elemental\Model {
          * @return string
          */
         public function getPartnerTag(): string {
-            return Config::inst()->get(__CLASS__, 'partnerTag');
+            return static::config()->get("partnerTag");
         }
 
     }

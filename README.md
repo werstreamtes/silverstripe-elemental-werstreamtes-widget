@@ -26,10 +26,11 @@ or via composer.json:
 
 ### Good to know
 
-If you are part of the WerStreamt.es partner program, you can create a config file and override the PartnerTag with your own.
+If you are part of the WerStreamt.es partner program, you can create a config file or use a existing config and override the PartnerTag with your own.
 
 ```
-
+WSE\Elemental\Model\WerStreamtEsWidget:
+  partnerTag: "YOUR_PARTNER_TAG"
 ```
 
 Feel free to reach out if you have any questions or issues!

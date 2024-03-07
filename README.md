@@ -4,7 +4,6 @@
 * [SilverStripe Elemental WerStreamt.es? Widget](#silverstripe-elemental-werstreamtes-widget)
     * [Requirements](#requirements)
     * [Installation](#installation)
-    * [Good to know](#good-to-know)
 <!-- TOC -->
 
 ### Requirements
@@ -23,14 +22,3 @@ or via composer.json:
     "werstreamtes/silverstripe-elemental-werstreamtes-widget" : "1.0.0",
 }
 ```
-
-### Good to know
-
-If you are part of the WerStreamt.es partner program, you can create a config file or use a existing config and override the PartnerTag with your own.
-
-```
-WSE\Elemental\Model\WerStreamtEsWidget:
-  partnerTag: "YOUR_PARTNER_TAG"
-```
-
-Feel free to reach out if you have any questions or issues!

@@ -1,5 +1,5 @@
 {
-  "name": "werstreamtes/widget-elemental-block",
+  "name": "werstreamtes/silverstripe-elemental-werstreamtes-widget",
   "type": "silverstripe-vendormodule",
   "description": "With this widget, you can display availability information for movies and series directly on your website.",
   "keywords": [

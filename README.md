@@ -22,3 +22,7 @@ or via composer.json:
     "werstreamtes/silverstripe-elemental-werstreamtes-widget" : "1.0.0",
 }
 ```
+
+After the installation, a `dev/build` must be executed. The widget will then be available to you in the admin area.
+
+Feel free to reach out if you have any questions or issues!

@@ -50,9 +50,8 @@ namespace WSE\Elemental\Model {
          */
         private static array $db = [
             "URL" => "Text",
-            "ShowTrailer" => "Enum(array('Yes', 'No'), 'Yes')",
-            "ShowTV" => "Enum(array('Yes', 'No'), 'Yes')",
-            "ShowDisc" => "Enum(array('Yes', 'No'), 'Yes')",
+            "ShowTV" => "Boolean",
+            "ShowDisc" => "Boolean",
         ];
 
         /**
